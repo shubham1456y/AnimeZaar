@@ -11,7 +11,7 @@ const ownersRouter = require('./routes/ownersRouter');
 const usersRouter = require('./routes/usersRouter');
 const productsRouter = require('./routes/productsRouter');
 const indexRouter = require('./routes/index');
-const { connectDb } = require('./middlewares/db.js');
+const  connectDb  = require('./middlewares/db.js');
 
 app.use(express.json());
 app.use(express.urlencoded({extended:true})); 
